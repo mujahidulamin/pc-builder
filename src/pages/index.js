@@ -1,10 +1,13 @@
 import RootLayout from '@/components/Layout/RootLayout';
-import Navbar from '@/components/UI/Navbar';
+import Banner from '@/components/UI/Banner';
+import FeaturedProducts from '@/components/UI/FeaturedProducts';
 import React from 'react';
 
 const HomePage = () => {
   return (
     <div>
+      <Banner></Banner>
+      <FeaturedProducts></FeaturedProducts>
     </div>
   );
 };
