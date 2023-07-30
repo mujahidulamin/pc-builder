@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import React, { useState, useRef, useEffect } from "react";
 import { signOut, useSession } from "next-auth/react";
 import { FaUserAlt } from "react-icons/fa";
-import { BiMenu } from "react-icons/fa";
+
 
 //navbar
 const Navbar = () => {

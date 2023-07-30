@@ -33,17 +33,7 @@ export const getStaticProps = async () => {
   // }
 
   const res = await fetch("http://localhost:3000/api/products");
-
-  if (typeof window === "undefined") {
-    return {
-      props: {
-        products: [],
-      },
-    };
-  }
-
   const data = await res.json();
-
   // Randomly select 6 products
   function getRandomProducts(data, count) {
     const shuffled = data.data.sort(() => 0.5 - Math.random());
