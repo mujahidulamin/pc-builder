@@ -1,4 +1,5 @@
 import React from "react";
+import StarRatings from "react-star-ratings";
 
 const FeaturedProducts = ({ products }) => {
   console.log(products);
@@ -38,6 +39,17 @@ const FeaturedProducts = ({ products }) => {
                 <div className="badge badge-success gap-2">
                   {product.Status}
                 </div>
+              </div>
+
+              <div className="flex items-center justify-center py-2 bg-gray-200 dark:bg-gray-700">
+                <StarRatings
+                  rating={product.Ratings}
+                  starRatedColor="yellow"
+                  numberOfStars={5}
+                  starDimension="16px"
+                  starSpacing="2px"
+                />
+                <p className="text-[14px] ml-1.5">({product.Ratings})</p>
               </div>
             </div>
           </div>
