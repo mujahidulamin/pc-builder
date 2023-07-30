@@ -1,10 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React, { useState, useRef, useEffect } from "react";
 
 
 //navbar
 const Navbar = () => {
+
+  const router = useRouter();
+
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -45,7 +50,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center -mr-2 -my-2 md:hidden">
             <button
-              onClick={() => alert("Redirect to PC Builder page")}
+              onClick={() => router.push("/pc-builder")}
               type="button"
               className="py-2 px-4 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 mr-6"
             >
@@ -127,7 +132,7 @@ const Navbar = () => {
                     RAM
                   </Link>
                   <Link
-                    href="/categories/powerSupplyUnit"
+                    href="/categories/powersupply"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50"
                   >
                     Power Supply Unit
@@ -181,7 +186,7 @@ const Navbar = () => {
             </div>
 
             <button
-              onClick={() => alert("Redirect to PC Builder page")}
+              onClick={() => router.push("/pc-builder")}
               className="py-2 px-4  font-medium rounded-md btn text-base bg-indigo-600 hover:bg-indigo-600 text-white"
             >
               PC Builder
