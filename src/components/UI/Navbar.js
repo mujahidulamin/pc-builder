@@ -127,7 +127,7 @@ const Navbar = () => {
                     RAM
                   </Link>
                   <Link
-                    href="/categories/powersupply"
+                    href="/categories/powerSupplyUnit"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50"
                   >
                     Power Supply Unit
