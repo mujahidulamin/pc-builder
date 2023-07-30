@@ -1,0 +1,717 @@
+{
+  "products": {
+    "CPU/Processor": [
+      {
+        "ProductName": "Intel Core i9-11900K",
+        "image": "https://thinkcomputers.org/wp-content/uploads/2021/04/intel-core-i9-11900k-14.jpg",
+        "Category": "CPU/Processor",
+        "Status": "In Stock",
+        "Price": "58,000 ৳",
+        "Description": "With its high clock speeds, multi-core performance, and overclocking potential, the Intel Core i9-11900K is well-suited for gaming, content creation, and other compute-intensive tasks that require substantial processing power",
+        "KeyFeatures": {
+          "Brand": "Intel",
+          "Model": "Core i9-11900K",
+          "Specification": "11th Gen, 8 cores, 16 threads",
+          "Socket": "LGA 1200",
+          "ClockSpeed": "3.5 GHz (base), 5.3 GHz (max turbo)"
+        },
+        "Reviews": [
+          {
+            "Name": "Mazbaul Hoque",
+            "Email": "mazbaulhoque@gmail.com",
+            "IndividualRating": 4.8,
+            "Comment": "Good For Gaming",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Tahmid Ahmed",
+            "Email": "tahmidahmed@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "I am using it from 3 years. Really good for gaming",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Habibur Rahman",
+            "Email": "habiburrahman@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "Excellent for multitasking",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.5"
+      },
+
+      {
+        "ProductName": "AMD Ryzen 9 5950X",
+        "image": "https://cdn.mos.cms.futurecdn.net/JQL4LSpTJhDWAtbWQdJm8i.jpg",
+        "Category": "CPU / Processor",
+        "Status": "Out of Stock",
+        "Price": "62,500 ৳",
+        "Description": "Flagship AMD processor with 16 cores and 32 threads for extreme performance.",
+        "KeyFeatures": {
+          "Brand": "AMD",
+          "Model": "Ryzen 9 5950X",
+          "Specification": "Zen 3, 16 cores, 32 threads",
+          "Socket": "AM4",
+          "ClockSpeed": "3.4 GHz (base), 4.9 GHz (max boost)"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.4,
+            "Comment": "A Powerhouse Processor for Enthusiasts and Professionals",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4,
+            "Comment": "Unmatched Gaming Performance and Multitasking Prowess",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.7"
+      },
+
+      {
+        "ProductName": "Intel Core i7-11700K",
+        "image": "https://i.pcmag.com/imagery/reviews/07t4lNx2SkkAcDUM94GzbnN-1.fit_lim.size_1050x.png",
+        "Category": "CPU / Processor",
+        "Status": "In Stock",
+        "Price": "1,20000 ৳",
+        "Description": "It is designed for gaming, content creation, and heavy multitasking, catering to enthusiasts and power users who require top-tier performance",
+        "KeyFeatures": {
+          "Brand": "Intel",
+          "Model": "Core i7-11700k",
+          "Specification": "Zen 11, 8 cores, 16 threads",
+          "Socket": "LGA 1200",
+          "ClockSpeed": "3.6 GHz Up to 5.0 GHz"
+        },
+        "Reviews": [
+          {
+            "Name": "Mazbaul Hoque",
+            "Email": "mazbaulhoque@gmail.com",
+            "IndividualRating": 4.8,
+            "Comment": "Good For Gaming",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Tahmid Ahmed",
+            "Email": "tahmidahmed@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "I am using it from 3 years. Really good for gaming",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Habibur Rahman",
+            "Email": "habiburrahman@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "Excellent for multitasking",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4"
+      }
+
+    ],
+
+    "Motherboard": [
+      {
+        "ProductName": "ASRock B550 Phantom Gaming 4",
+        "image": "https://i.ytimg.com/vi/KuqclLWGMTA/maxresdefault.jpg",
+        "Category": "Motherboard",
+        "Status": "In Stock",
+        "Price": "15,000 ৳",
+        "Description": "The ASRock B550 Phantom Gaming 4 is a feature-rich ATX motherboard designed for AMD Ryzen processors, specifically compatible with the 3rd Gen and 4th Gen Ryzen CPUs. It belongs to the B550 chipset series, which offers a balance between affordability and performance, making it an excellent choice for gamers and content creators alike.",
+        "KeyFeatures": {
+          "Brand": "AMD",
+          "Model": "ASRock B550 Phantom 4",
+          "Chipset": "AMD B550",
+          "FormFactor": "12.0-In X 9.6-In, 30.5 Cm X 24.4 Cm",
+          "RAMSlots": "4 x DDR4 DIMM"
+        },
+        "Reviews": [
+          {
+            "Name": "Mazbaul Hoque",
+            "Email": "mazbaulhoque@gmail.com",
+            "IndividualRating": 4.8,
+            "Comment": "Good For Gaming",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Tahmid Ahmed",
+            "Email": "tahmidahmed@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "I am using it from 3 years. Really good for gaming",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Habibur Rahman",
+            "Email": "habiburrahman@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "Excellent for multitasking",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.7"
+      },
+
+      {
+        "ProductName": "MSI MPG X570 Gaming Plus",
+        "image": "https://cdn.mos.cms.futurecdn.net/k35GM47GDRchhSjihuTT37-1200-80.jpg",
+        "Category": "Motherboard",
+        "Status": "In Stock",
+        "Price": "25,000 ৳",
+        "Description": "Feature-rich X570 motherboard with excellent VRM cooling and PCIe 4.0 support.",
+        "KeyFeatures": {
+          "Brand": "MSI",
+          "Model": "MAG B550 Tomahawk",
+          "Chipset": "AMD® X570 Chipset",
+          "FormFactor": "ATX",
+          "RAMSlots": "4 x DDR4 DIMM"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.4,
+            "Comment": "A Powerhouse Processor for Enthusiasts and Professionals",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4,
+            "Comment": "Unmatched Gaming Performance and Multitasking Prowess",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.7"
+      },
+
+      {
+        "ProductName": "Gigabyte B460M DS3H",
+        "image": "https://static.gigabyte.com/StaticFile/Image/Global/8568aa99eddc038b75e5b82138756aee/Product/24991/Png",
+        "Category": "Motherboard",
+        "Status": "In Stock",
+        "Price": "20,000 ৳",
+        "Description": "The Gigabyte B460M DS3H is a micro-ATX motherboard designed for Intel 10th Gen Comet Lake-S processors. It belongs to the B460 chipset series, which offers a cost-effective solution for users who want to build a budget-friendly yet capable system without overclocking support",
+        "KeyFeatures": {
+          "Brand": "GIGABYTE",
+          "Model": "B460M DS3H",
+          "Chipset": "Intel® B460 Express Chipset",
+          "FormFactor": "Micro ATX Form Factor; 24.4cm x 22.5cm",
+          "RAMSlots": "4 x DDR4 DIMM"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.4,
+            "Comment": "A Powerhouse Processor for Enthusiasts and Professionals",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4,
+            "Comment": "Unmatched Gaming Performance and Multitasking Prowess",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.7"
+      }
+    ],
+
+    "RAM": [
+      {
+        "ProductName": "Crucial Ballistix 16GB DDR4 3200MHz",
+        "image": "https://c1.neweggimages.com/ProductImage/20-164-176-01.jpg",
+        "Category": "RAM",
+        "Status": "In Stock",
+        "Price": "6,000 ৳",
+        "Description": "The Crucial Ballistix 16GB DDR4 3200MHz is a high-performance RAM module designed for gaming, content creation, and other demanding applications",
+        "KeyFeatures": {
+          "Brand": "Crucial Ballistix",
+          "Model": "Ballistix 16GB",
+          "Capacity": "16GB",
+          "Speed": "2000MHz",
+          "CASLatency": "12"
+        },
+        "Reviews": [
+          {
+            "Name": "Mazbaul Hoque",
+            "Email": "mazbaulhoque@gmail.com",
+            "IndividualRating": 4.8,
+            "Comment": "Good For Gaming",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Tahmid Ahmed",
+            "Email": "tahmidahmed@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "I am using it from 3 years. Really good for gaming",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Habibur Rahman",
+            "Email": "habiburrahman@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "Excellent for multitasking",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.2"
+      },
+
+      {
+        "ProductName": "G.SKILL Trident Z RGB 32GB DDR4 3600MHz",
+        "image": "https://www.gskill.com/_upload/images/153665604611.png",
+        "Category": "RAM",
+        "Status": "In Stock",
+        "Price": "5,000 ৳",
+        "Description": "High-speed DDR4 RAM with optimized performance for AMD Ryzen processors.",
+        "KeyFeatures": {
+          "Brand": "G.Skill",
+          "Model": "Trident Z Neo",
+          "Capacity": "32GB (2 x 16GB)",
+          "Speed": "3600MHz",
+          "CASLatency": "18"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.4,
+            "Comment": "A Powerhouse Processor for Enthusiasts and Professionals",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4,
+            "Comment": "Unmatched Gaming Performance and Multitasking Prowess",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.7"
+      },
+
+      {
+        "ProductName": "Crucial Ballistix MAX 64GB",
+        "image": "https://m.media-amazon.com/images/I/51ZjZ-lGzKL._AC_UF1000,1000_QL80_.jpg",
+        "Category": "RAM",
+        "Status": "In Stock",
+        "Price": "5,000 ৳",
+        "Description": "High-capacity DDR4 RAM with aggressive styling and XMP 2.0 support.",
+        "KeyFeatures": {
+          "Brand": "Crucial",
+          "Model": "Ballistix MAX",
+          "Capacity": "64GB (2 x 32GB)",
+          "Speed": "4000MHz",
+          "CAS Latency": "18"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.4,
+            "Comment": "A Powerhouse Processor for Enthusiasts and Professionals",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.7"
+      }
+    ],
+
+    "Power Supply Unit": [
+      {
+        "ProductName": "NZXT C850",
+        "image": "https://m.media-amazon.com/images/I/41K54doceFL._AC_.jpg",
+        "Category": "Power Supply Unit",
+        "Status": "In Stock",
+        "Price": "10,000 ৳",
+        "Description": "850W 80+ Gold certified power supply with CAM-powered monitoring and fully modular design.",
+        "KeyFeatures": {
+          "Brand": "NZXT",
+          "Model": "C850",
+          "Wattage": "850W",
+          "Efficiency": "80+ Gold",
+          "Modularity": "Fully Modular"
+        },
+        "Reviews": [
+          {
+            "Name": "Mazbaul Hoque",
+            "Email": "mazbaulhoque@gmail.com",
+            "IndividualRating": 4.8,
+            "Comment": "Runs quietly, the non-modular design was not an issue for my build.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Tahmid Ahmed",
+            "Email": "tahmidahmed@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "Excellent value for money, no complaints so far.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.7"
+      },
+
+      {
+        "ProductName": "Thermaltake Toughpower GF1 750W",
+        "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/thermaltake/toughpower-gf1-argb-750w/toughpower-gf1-argb-750w-01-500x500.jpg",
+        "Category": "Power Supply Unit",
+        "Status": "In Stock",
+        "Price": "95,000 ৳",
+        "Description": "750W 80+ Gold certified power supply with a single +12V rail and a compact design.",
+        "KeyFeatures": {
+          "Brand": "Thermaltake",
+          "Model": "Toughpower GF1 750W",
+          "Wattage": "750W",
+          "Efficiency": "80+ Gold",
+          "Modularity": "Semi-Modular"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.4,
+            "Comment": "Efficient and reliable, has been powering my system flawlessly.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4,
+            "Comment": "The semi-modular design still helps with cable management, overall happy with the purchase.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.3"
+      },
+
+      {
+        "ProductName": "Cooler Master MWE Gold 650 V2",
+        "image": "https://files.coolermaster.com/og-image/mwe-gold-650-v2-full-modular-1200x630.jpg",
+        "Category": "Power Supply Unit",
+        "Status": "In Stock",
+        "Price": "80,000 ৳",
+        "Description": "650W 80+ Gold certified power supply with 120mm HDB fan and flat black cables.",
+        "KeyFeatures": {
+          "Brand": "Cooler Master",
+          "Model": "MWE Gold 650 V2",
+          "Wattage": "650W",
+          "Efficiency": "80+ Gold",
+          "Modularity": "Non-Modular"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.4,
+            "Comment": "The CAM monitoring feature is a great addition, and the PSU delivers stable power.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4,
+            "Comment": "The semi-modular design still helps with cable management, overall happy with the purchase.",
+            "Image": "Runs silently and the fully modular design made cable management a breeze."
+          }
+        ],
+        "Ratings": "4.6"
+      }
+    ],
+
+    "Storage Device": [
+      {
+        "ProductName": "Crucial MX500 1TB SATA SSD",
+        "image": "https://images.anandtech.com/doci/12165/imgp8918.jpg",
+        "Category": "Storage Device",
+        "Status": "In Stock",
+        "Price": "12,300 ৳",
+        "Description": "High-capacity SATA SSD with 3D NAND technology for reliable performance and data security.",
+        "KeyFeatures": {
+          "Brand": "Crucial",
+          "Model": "MX500",
+          "Capacity": "1TB",
+          "Interface": "SATA 6Gb/s",
+          "ReadSpeed": "560MB/s",
+          "WriteSpeed": "510MB/s"
+        },
+        "Reviews": [
+          {
+            "Name": "Mazbaul Hoque",
+            "Email": "mazbaulhoque@gmail.com",
+            "IndividualRating": 4.8,
+            "Comment": "Fast and reliable SSD, great for daily use and gaming.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Tahmid Ahmed",
+            "Email": "tahmidahmed@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "Excellent value for money, no complaints so far.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.5"
+      },
+
+      {
+        "ProductName": "ADATA XPG SX8200 Pro 2TB NVMe SSD",
+        "image": "https://webapi3.adata.com/storage/product/sx8200_pro_1920x1080.jpg",
+        "Category": "Storage Device",
+        "Status": "In Stock",
+        "Price": "20,000 ৳",
+        "Description": "High-speed NVMe SSD with PCIe 3.0 x4 interface for exceptional performance.",
+        "KeyFeatures": {
+          "Brand": "ADATA",
+          "Model": "XPG SX8200 Pro",
+          "Capacity": "2TB",
+          "Interface": "NVMe PCIe 3.0 x4",
+          "ReadSpeed": "3500MB/s",
+          "WriteSpeed": "3000MB/s"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.4,
+            "Comment": "Efficient and reliable, has been powering my system flawlessly.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.8"
+      },
+
+      {
+        "ProductName": "Toshiba X300 6TB HDD",
+        "image": "https://itstall.com.bd/wp-content/uploads/2021/10/TOSHIBA-6TB-5.jpg",
+        "Category": "Storage Device",
+        "Status": "In Stock",
+        "Price": "16,000 ৳",
+        "Description": "High-capacity HDD with a large storage space for gaming and multimedia content.",
+        "KeyFeatures": {
+          "Brand": "Toshiba",
+          "Model": "X300",
+          "Capacity": "6TB",
+          "Interface": "SATA 6Gb/s",
+          "RPM": "7200",
+          "Cache": "128MB"
+        },
+        "Reviews": [
+          {
+            "Name": "Tahmid Ahmed",
+            "Email": "tahmidahmed@gmail.com",
+            "IndividualRating": 4.5,
+            "Comment": "Massive storage, perfect for storing large video files and games.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.3"
+      }
+    ],
+
+    "Monitor": [
+      {
+        "ProductName": "AOC CQ32G1 32-inch Curved Gaming Monitor",
+        "image": "https://i.rtings.com/assets/products/n3ND8Qmf/aoc-cq32g1/design-medium.jpg",
+        "Category": "Monitor",
+        "Status": "In Stock",
+        "Price": "48,000 ৳",
+        "Description": "32-inch QHD curved gaming monitor with 144Hz refresh rate and AMD FreeSync.",
+        "KeyFeatures": {
+          "Brand": "AOC",
+          "Model": "CQ32G1",
+          "Display Size": "32 inches",
+          "Resolution": "2560 x 1440 (QHD)",
+          "RefreshRate": "144Hz",
+          "ResponseTime": "1ms (MPRT)",
+          "PanelType": "VA"
+        },
+        "Reviews": [
+          {
+            "Name": "Mazbaul Hoque",
+            "Email": "mazbaulhoque@gmail.com",
+            "IndividualRating": 4.3,
+            "Comment": "Love the immersive experience with the curved screen. Great for gaming and movies.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Tahmid Ahmed",
+            "Email": "tahmidahmed@gmail.com",
+            "IndividualRating": 4.2,
+            "Comment": "Satisfied with the overall performance. Colors are vibrant, and the 144Hz is smooth.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.7"
+      },
+
+      {
+        "ProductName": "ViewSonic VX3276-2K-MHD 32-inch Monitor",
+        "image": "https://www.viewsonic.com/vsAssetFile/global/img/slides/_lcd_display_%28new%29/VX3276-2K-MHD/VX3276-2K-mhd_LF02_pc.jpg",
+        "Category": "Monitor",
+        "Status": "In Stock",
+        "Price": "45,000 ৳",
+        "Description": "32-inch QHD monitor with SuperClear IPS panel for vibrant colors and thin bezel design.",
+        "KeyFeatures": {
+          "Brand": "ViewSonic",
+          "Model": "VX3276-2K-MHD",
+          "Display Size": "32 inches",
+          "Resolution": "2560 x 1440 (QHD)",
+          "RefreshRate": "60Hz",
+          "ResponseTime": "4ms (gray-to-gray)",
+          "PanelType": "IPS"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.2,
+            "Comment": "Efficient and reliable, has been powering my system flawlessly.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4.3,
+            "Comment": "The semi-modular design still helps with cable management, overall happy with the purchase.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.8"
+      },
+
+      {
+        "ProductName": "BenQ EX2780Q 27-inch Gaming Monitor",
+        "image": "https://surovienterprise.net/wp-content/uploads/2021/05/81kU7dNyEML._AC_SX679_.jpg",
+        "Category": "Monitor",
+        "Status": "In Stock",
+        "Price": "70,000 ৳",
+        "Description": "27-inch QHD gaming monitor with HDRi and 144Hz refresh rate for immersive gaming experiences.",
+        "KeyFeatures": {
+          "Brand": "BenQ",
+          "Model": "EX2780Q",
+          "Display Size": "27 inches",
+          "Resolution": "2560 x 1440 (QHD)",
+          "RefreshRate": "144Hz",
+          "ResponseTime": "5ms (gray-to-gray)",
+          "PanelType": "IPS"
+        },
+        "Reviews": [
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4,
+            "Comment": "The semi-modular design still helps with cable management, overall happy with the purchase.",
+            "Image": "Runs silently and the fully modular design made cable management a breeze."
+          }
+        ],
+        "Ratings": "4.5"
+      }
+    ],
+
+    "Others": [
+      {
+        "ProductName": "Samsung 34-inch UltraWide Monitor",
+        "image": "https://m.media-amazon.com/images/I/41gVicwYMiL.jpg",
+        "Category": "Others",
+        "Status": "In Stock",
+        "Price": "1,00000 ৳",
+        "Description": "34-inch UltraWide QHD monitor with 100Hz refresh rate and AMD FreeSync.",
+        "KeyFeatures": {
+          "Brand": "Samsung",
+          "Model": "LC34G55TWRNXZA",
+          "Display Size": "34 inches",
+          "Resolution": "3440 x 1440 (UW-QHD)",
+          "RefreshRate": "100Hz",
+          "ResponseTime": "4ms (GTG)",
+          "PanelType": "VA"
+        },
+        "Reviews": [
+          {
+            "Name": "Mazbaul Hoque",
+            "Email": "mazbaulhoque@gmail.com",
+            "IndividualRating": 4.3,
+            "Comment": "Great monitor for multitasking and gaming. The UltraWide aspect ratio is a game-changer.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Tahmid Ahmed",
+            "Email": "tahmidahmed@gmail.com",
+            "IndividualRating": 4.2,
+            "Comment": "The 100Hz refresh rate is smooth, and the picture quality is impressive.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.5"
+      },
+
+      {
+        "ProductName": "HyperX Cloud Alpha S Gaming Headset",
+        "image": "https://assets-prd.ignimgs.com/2022/03/28/hyperx-cloud-alpha-s-gaming-headset-button-1648499600783.jpg",
+        "Category": "Others",
+        "Status": "In Stock",
+        "Price": "15,000 ৳",
+        "Description": "Wired gaming headset with virtual 7.1 surround sound and adjustable bass.",
+        "KeyFeatures": {
+          "Brand": "HyperX",
+          "Model": "Cloud Alpha S",
+          "Audio": "Virtual 7.1 surround sound",
+          "DriverSize": "50mm",
+          "NoiseCancellation": "Detachable noise-canceling mic",
+          "Compatibility": "PC, PS4, PS5, Xbox One, Xbox Series X|S"
+        },
+        "Reviews": [
+          {
+            "Name": "Arafat Hridoy",
+            "Email": "arafathridoy@gmail.com",
+            "IndividualRating": 4.2,
+            "Comment": "The sound quality is excellent, and the bass adjustment adds depth to the gaming experience.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          },
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4.3,
+            "Comment": "Comfortable for long gaming sessions, and the detachable mic is a nice feature.",
+            "Image": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png"
+          }
+        ],
+        "Ratings": "4.2"
+      },
+
+      {
+        "ProductName": "Corsair K95 RGB PLATINUM XT Mechanical Keyboard",
+        "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6394/6394003_sd.jpg",
+        "Category": "Others",
+        "Status": "In Stock",
+        "Price": "25,000 ৳",
+        "Description": "Mechanical gaming keyboard with Cherry MX switches and customizable RGB lighting.",
+        "KeyFeatures": {
+          "Brand": "Corsair",
+          "Model": "K95 RGB PLATINUM XT",
+          "Switches": "Cherry MX",
+          "KeyRollover": "N-key rollover",
+          "Backlighting": "Customizable RGB",
+          "WristRest": "Detachable wrist rest"
+        },
+        "Reviews": [
+          {
+            "Name": "Araf Hossain Nohan",
+            "Email": "nohan@gmail.com",
+            "IndividualRating": 4,
+            "Comment": "The detachable wrist rest is comfortable, and the build quality is top-notch.",
+            "Image": "Runs silently and the fully modular design made cable management a breeze."
+          }
+        ],
+        "Ratings": "4.4"
+      }
+    ]
+  }
+}
