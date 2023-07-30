@@ -24,6 +24,15 @@ StorageDevice.getLayout = function getLayout(page) {
   };
   
   export const getStaticProps = async () => {
+
+    if (typeof window === "undefined") {
+      return {
+        props: {
+          products: [],
+        },
+      };
+    }
+
     const res = await fetch("http://localhost:3000/api/products?category=Storage Device");
     const data = await res.json();
     return {

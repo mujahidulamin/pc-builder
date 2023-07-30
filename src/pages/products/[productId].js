@@ -1,6 +1,7 @@
 import RootLayout from "@/components/Layout/RootLayout";
 import React from "react";
 import StarRatings from "react-star-ratings";
+
 const ProductDetails = ({ product }) => {
   const Ratings = product?.Reviews.reduce(
     (total, review) => total + review.IndividualRating,
@@ -92,7 +93,10 @@ const ProductDetails = ({ product }) => {
       {product.Reviews?.map((review, i) => (
         <>
           {review ? (
-            <div key={i} className="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 dark:bg-gray-900 dark:text-gray-100">
+            <div
+              key={i}
+              className="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 dark:bg-gray-900 dark:text-gray-100"
+            >
               <div className="flex justify-between p-4">
                 <div className="flex space-x-4">
                   <div>
@@ -110,18 +114,18 @@ const ProductDetails = ({ product }) => {
                   </div>
                 </div>
                 <div className="flex items-center space-x-2 dark:text-yellow-500">
-                <div className="flex items-center">
-                      <StarRatings
-                        rating={review?.IndividualRating}
-                        starRatedColor="yellow"
-                        numberOfStars={5}
-                        starDimension="16px"
-                        starSpacing="2px"
-                      />
-                      <p className="text-[14px] ml-1.5">
-                        ({review?.IndividualRating})
-                      </p>
-                    </div>
+                  <div className="flex items-center">
+                    <StarRatings
+                      rating={review?.IndividualRating}
+                      starRatedColor="yellow"
+                      numberOfStars={5}
+                      starDimension="16px"
+                      starSpacing="2px"
+                    />
+                    <p className="text-[14px] ml-1.5">
+                      ({review?.IndividualRating})
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="p-4 space-y-2 text-sm dark:text-gray-400">
@@ -143,26 +147,28 @@ ProductDetails.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
-export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
-  const data = await res.json();
+// export const getStaticPaths = async () => {
+//   const res = await fetch("http://localhost:3000/api/products");
+//   const data = await res.json();
 
-  const paths = data?.data?.map((product) => ({
-    params: { productId: product._id },
-  }));
+//   const paths = data?.data?.map((product) => ({
+//     params: { productId: product._id },
+//   }));
 
-  return { paths, fallback: false };
-};
-export const getStaticProps = async (context) => {
-  const { params } = context;
-  const res = await fetch(
-    `http://localhost:3000/api/products?productId=${params.productId}`
-  );
-  const data = await res.json();
+//   return { paths, fallback: false };
+// };
 
-  return {
-    props: {
-      product: data?.data,
-    },
-  };
-};
+// export const getStaticProps = async (context) => {
+
+//   const { params } = context;
+//   const res = await fetch(
+//     `http://localhost:3000/api/products?productId=${params.productId}`
+//   );
+//   const data = await res.json();
+
+//   return {
+//     props: {
+//       product: data?.data,
+//     },
+//   };
+// };

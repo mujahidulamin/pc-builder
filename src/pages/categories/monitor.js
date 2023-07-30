@@ -17,12 +17,21 @@ const Monitor = ({ products }) => {
     </div>
   );
 };
-
+export default Monitor;
 Monitor.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
 export const getStaticProps = async () => {
+
+  if (typeof window === "undefined") {
+    return {
+      props: {
+        products: [],
+      },
+    };
+  }
+
   const res = await fetch(
     'http://localhost:3000/api/products?category=Monitor'
   );
@@ -35,4 +44,4 @@ export const getStaticProps = async () => {
   };
 };
 
-export default Monitor;
+

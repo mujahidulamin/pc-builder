@@ -1,17 +1,15 @@
 import RootLayout from "@/components/Layout/RootLayout";
 import { signIn } from "next-auth/react";
 import React from "react";
+import { useRouter } from "next/router";
 
 const Login = () => {
-    
-  const handleGoogleLogin = () => {
-    // Implement Google login functionality here
-    // Redirect user to Google login page
-    // Example: router.push('/auth/google');
-  };
 
- 
 
+  const router = useRouter()
+
+  const {callbackUrl} = router.query
+  
   return (
     <div>
       <div className="flex items-center justify-center h-screen bg-gray-100">
@@ -19,7 +17,11 @@ const Login = () => {
           <h2 className="text-2xl font-bold mb-4 text-center">Login</h2>
           <div className="space-y-4">
             <button
-              onClick={handleGoogleLogin}
+              onClick={() =>
+                signIn("google", {
+                  callbackUrl: callbackUrl || "http://localhost:3000"
+                })
+              }
               className="flex items-center justify-center bg-red-600 text-white rounded-md p-2 w-full"
             >
               <svg
