@@ -24,7 +24,7 @@ Ram.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3001/api/products?category=RAM");
+  const res = await fetch("http://localhost:3000/api/products?category=RAM");
   const data = await res.json();
   return {
     props: {

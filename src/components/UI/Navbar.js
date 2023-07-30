@@ -2,13 +2,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState, useRef, useEffect } from "react";
-
+import { signOut, useSession } from "next-auth/react";
+import { FaUserAlt } from "react-icons/fa";
+import { BiMenu } from "react-icons/fa";
 
 //navbar
 const Navbar = () => {
+  const { data: session } = useSession();
 
+  console.log(session);
   const router = useRouter();
-
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
@@ -17,10 +20,6 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
-  };
-
-  const toggleProfile = () => {
-    setIsProfileOpen(!isProfileOpen);
   };
 
   useEffect(() => {
@@ -48,23 +47,18 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <div className="flex items-center -mr-2 -my-2 md:hidden">
-            <button
-              onClick={() => router.push("/pc-builder")}
-              type="button"
-              className="py-2 px-4 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 mr-6"
-            >
-              PC Builder
-            </button>
 
+          <div className="flex items-center -mr-2 -my-2 md:hidden">
             <button
               onClick={toggleMenu}
               type="button"
-              className={`inline-flex items-center justify-center p-2 rounded-md text-purple-500 ${
+              className={`inline-flex items-center justify-center p-2 rounded-md text-blue-500 ${
                 mobileMenuOpen ? "bg-gray-100" : "hover:bg-gray-100"
-              } focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-500`}
+              } focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500`}
             >
               <span className="sr-only">Open menu</span>
+
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className={`h-6 w-6 ${mobileMenuOpen ? "hidden" : "block"}`}
@@ -79,6 +73,7 @@ const Navbar = () => {
                   d="M4 6h16M4 12h16m-7 6h7"
                 />
               </svg>
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className={`h-6 w-6 ${mobileMenuOpen ? "block" : "hidden"}`}
@@ -159,31 +154,48 @@ const Navbar = () => {
               )}
             </div>
 
-            <div className="relative group">
-              <button onClick={toggleProfile} type="button" className="">
-                <div className="avatar">
-                  <div className="w-12 rounded-full">
-                    <img src="https://static.vecteezy.com/system/resources/previews/002/002/403/original/man-with-beard-avatar-character-isolated-icon-free-vector.jpg" />
+            <div className="relative group mt-2">
+              <div
+                className="tooltip tooltip-bottom"
+                data-tip={session?.user?.name}
+              >
+                {session?.user?.image ? (
+                  <img
+                    className="rounded-full"
+                    style={{ height: "40px" }}
+                    src={session?.user?.image}
+                    alt=""
+                  />
+                ) : (
+                  <div
+                    className="tooltip tooltip-bottom mt-2"
+                    data-tip="Profile"
+                  >
+                    <FaUserAlt></FaUserAlt>
                   </div>
-                </div>
-              </button>
-
-              {isProfileOpen && (
-                <div
-                ref={profileRef}
-                  className="absolute z-10 mt-2 bg-white rounded-lg shadow-lg"
-                  onBlur={() => setIsProfileOpen(false)}
-                  tabIndex={0}
-                >
-                  <div className="py-2 px-4 text-sm font-medium text-gray-700">
-                    Mujahidul Amin
-                  </div>
-                  <div className="pb-3 px-4 text-sm text-gray-500">
-                    mujahidulamin1108152@gmail.com
-                  </div>
-                </div>
-              )}
+                )}
+              </div>
             </div>
+
+            {session?.user?.email ? (
+              <button
+                onClick={() => signOut()}
+                aria-label="Logout"
+                title="Logout"
+                className="btn btn-sm mt-3"
+              >
+                Logout
+              </button>
+            ) : (
+              <Link
+                href="/login"
+                aria-label="Log In"
+                title="Log In"
+                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 mt-3"
+              >
+                LogIn
+              </Link>
+            )}
 
             <button
               onClick={() => router.push("/pc-builder")}
@@ -199,46 +211,40 @@ const Navbar = () => {
             <div className="mt-4 pt-2 pb-3 space-y-1">
               <div className="relative group">
                 <button
-                  onClick={toggleProfile}
+                  onClick={() => router.push("/pc-builder")}
                   type="button"
-                  className="flex items-center mt-2 w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-purple-50"
+                  className="py-2 px-4 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 mr-6"
                 >
-                  <span className="md:inline-block">John Doe</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 md:inline-block ml-2"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 14l9-5-9-5-9 5 9 5z"
-                    />
-                  </svg>
+                  PC Builder
                 </button>
-                {isProfileOpen && (
-                  <div
-                    ref={profileRef}
-                    className="absolute z-10 mt-2 bg-white rounded-lg shadow-lg"
-                  >
-                    <div className="py-2 px-4 text-sm font-medium text-gray-700">
-                      John Doe
-                    </div>
-                    <div className="pb-3 px-4 text-sm text-gray-500">
-                      john.doe@example.com
-                    </div>
-                  </div>
-                )}
+
+            {session?.user?.email ? (
+              <button
+                onClick={() => signOut()}
+                aria-label="Logout"
+                title="Logout"
+                className="btn btn-sm mt-3"
+              >
+                Logout
+              </button>
+            ) : (
+              <Link
+                href="/login"
+                aria-label="Log In"
+                title="Log In"
+                className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400 mt-3"
+              >
+                LogIn
+              </Link>
+            )}
               </div>
+              
               <div className="relative group">
                 <button
                   onMouseEnter={() => setIsMenuOpen(true)}
                   onMouseLeave={() => setIsMenuOpen(false)}
                   type="button"
-                  className="py-2 px-4 text-sm font-medium text-gray-700 hover:text-purple-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
+                  className="mt-3 text-sm font-medium"
                 >
                   Categories
                 </button>
@@ -293,6 +299,30 @@ const Navbar = () => {
                   </div>
                 )}
               </div>
+
+              <div className="relative group mt-2">
+              <div
+                className="tooltip tooltip-bottom"
+                data-tip={session?.user?.name}
+              >
+                {session?.user?.image ? (
+                  <img
+                    className="rounded-full"
+                    style={{ height: "40px" }}
+                    src={session?.user?.image}
+                    alt=""
+                  />
+                ) : (
+                  <div
+                    className="tooltip tooltip-bottom mt-2"
+                    data-tip="Profile"
+                  >
+                    <FaUserAlt></FaUserAlt>
+                  </div>
+                )}
+              </div>
+            </div>
+              
             </div>
           </div>
         )}

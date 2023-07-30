@@ -23,7 +23,7 @@ HomePage.getLayout = function getLayout(page) {
 
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3001/api/products");
+  const res = await fetch("http://localhost:3000/api/products");
   const data = await res.json();
 
   // Randomly select 6 products
