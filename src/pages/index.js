@@ -1,5 +1,6 @@
 import RootLayout from '@/components/Layout/RootLayout';
 import Banner from '@/components/UI/Banner';
+import FeaturedCategories from '@/components/UI/FeaturedCategories';
 import FeaturedProducts from '@/components/UI/FeaturedProducts';
 import React from 'react';
 
@@ -8,6 +9,7 @@ const HomePage = ({products}) => {
     <div>
       <Banner></Banner>
       <FeaturedProducts products={products}></FeaturedProducts>
+      <FeaturedCategories></FeaturedCategories>
     </div>
   );
 };
