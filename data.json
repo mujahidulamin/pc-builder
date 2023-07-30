@@ -44,7 +44,7 @@
       {
         "ProductName": "AMD Ryzen 9 5950X",
         "image": "https://cdn.mos.cms.futurecdn.net/JQL4LSpTJhDWAtbWQdJm8i.jpg",
-        "Category": "CPU / Processor",
+        "Category": "CPU/Processor",
         "Status": "Out of Stock",
         "Price": "62,500 ৳",
         "Description": "Flagship AMD processor with 16 cores and 32 threads for extreme performance.",
@@ -77,7 +77,7 @@
       {
         "ProductName": "Intel Core i7-11700K",
         "image": "https://i.pcmag.com/imagery/reviews/07t4lNx2SkkAcDUM94GzbnN-1.fit_lim.size_1050x.png",
-        "Category": "CPU / Processor",
+        "Category": "CPU/Processor",
         "Status": "In Stock",
         "Price": "1,20000 ৳",
         "Description": "It is designed for gaming, content creation, and heavy multitasking, catering to enthusiasts and power users who require top-tier performance",

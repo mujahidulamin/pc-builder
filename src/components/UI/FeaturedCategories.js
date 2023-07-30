@@ -21,7 +21,7 @@ const FeaturedCategories = () => {
     {
       title: "Power Supply Unit",
       image: "https://cdn-icons-png.flaticon.com/512/1547/1547882.png",
-      href: "/categories/powersupply",
+      href: "/categories/powerSupplyUnit",
     },
     {
       title: "Storage Device",
